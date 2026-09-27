@@ -1,5 +1,0 @@
-# GHSY 手记 — https://ghsy1.xyz
-User-agent: *
-Allow: /
-
-Sitemap: https://ghsy1.xyz/sitemap.xml

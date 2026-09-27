@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于 · GHSY 手记</title>
+<meta name="description" content="关于 GHSY 手记：这个博客是谁在写、写些什么、以及如何联系。">
+<link rel="canonical" href="https://ghsy1.xyz/about.html">
+<meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GHSY 手记">
+<meta property="og:title" content="关于 · GHSY 手记">
+<meta property="og:description" content="这个博客是谁在写、写些什么、以及如何联系。">
+<meta property="og:url" content="https://ghsy1.xyz/about.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="GHSY 手记 RSS" href="feed.xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('ghsy-theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="brandMark" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#fb923c"/>
+            <stop offset="55%" stop-color="#c2410c"/>
+            <stop offset="100%" stop-color="#7c2d12"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="18" fill="url(#brandMark)"/>
+        <path d="M19 22h26M32 22v22M19 44h26" stroke="#fff" stroke-width="4.2"
+              stroke-linecap="round" fill="none" opacity=".95"/>
+        <circle cx="32" cy="33" r="3.2" fill="#fff"/>
+      </svg>
+      <span class="brand__text">
+        <span class="brand__name">GHSY 手记</span>
+        <span class="brand__tag">ghsy1.xyz</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="index.html#posts">全部文章</a>
+      <a href="about.html" aria-current="page">关于</a>
+      <a href="feed.xml">订阅</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="切换深浅色模式">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/>
+        </svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/>
+        </svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" data-nav-toggle
+              aria-controls="site-nav" aria-expanded="false" aria-label="打开导航菜单">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="main" id="main">
+  <div class="container container--narrow">
+    <div class="page-header">
+      <p class="section-label" style="margin-top:0">关于</p>
+      <h1>嗨，我是 GHSY。</h1>
+    </div>
+
+    <div class="profile">
+      <svg class="profile__avatar" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#fb923c"/>
+            <stop offset="60%" stop-color="#c2410c"/>
+            <stop offset="100%" stop-color="#7c2d12"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="18" fill="url(#avatarGrad)"/>
+        <circle cx="32" cy="26" r="9" fill="#fff" opacity=".95"/>
+        <path d="M14 56c3-11 10-16 18-16s15 5 18 16" fill="#fff" opacity=".95"/>
+      </svg>
+      <div>
+        <p class="profile__name">GHSY</p>
+        <p class="profile__desc">写代码，也写字。相信把一件事讲清楚，是理解它最好的方式。</p>
+      </div>
+    </div>
+
+    <article class="article" style="margin-top:34px">
+      <h2>这个博客是什么</h2>
+      <p>
+        <strong>GHSY 手记</strong>是我的个人博客，运行在自己的域名
+        <code>ghsy1.xyz</code> 上。这里没有算法推荐，没有信息流，只有按时间排好的一篇篇文章。
+      </p>
+      <p>
+        我把这里当成一间安静的书房：写下的东西先经过自己的推敲，再交给愿意读的人。
+        如果某篇文章正好帮到了你，那是我最开心的部分。
+      </p>
+
+      <h2>我会写些什么</h2>
+      <ul>
+        <li><strong>技术笔记</strong> —— 前端、网页设计、工具使用，以及踩过的坑。</li>
+        <li><strong>教程</strong> —— 把我摸索过的流程整理成别人能照做的步骤。</li>
+        <li><strong>读书笔记</strong> —— 不摘抄，只写读完之后的真实想法。</li>
+        <li><strong>随笔</strong> —— 那些和生活有关、没什么用但很想说的事。</li>
+      </ul>
+
+      <h2>关于这个网站</h2>
+      <p>
+        整站是纯静态页面：没有数据库，没有后台，加载快、维护简单，也很少出故障。
+        深浅色主题、站内搜索、标签筛选都在浏览器本地完成，不会收集你的任何数据。
+      </p>
+
+      <h2>联系我</h2>
+      <ul class="link-list" style="margin-top:18px">
+        <li>
+          <a href="feed.xml">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M5 19h.01M5 13a6 6 0 0 1 6 6M5 8a11 11 0 0 1 11 11"/>
+            </svg>
+            <span>
+              <strong>RSS 订阅</strong>
+              <small>把 feed.xml 加入阅读器，新文章自动送达</small>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hello@ghsy1.xyz">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3.5 7 8.5 6 8.5-6"/>
+            </svg>
+            <span>
+              <strong>电子邮件</strong>
+              <small>hello@ghsy1.xyz —— 请把邮箱替换成你自己在用的地址</small>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="margin-top:0;border-top:0;padding-top:0">
+      <span>© <span data-year>2026</span> GHSY 手记 · 保留所有权利</span>
+      <span><a href="index.html">返回首页</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

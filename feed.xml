@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GHSY 手记</title>
+    <link>https://ghsy1.xyz/</link>
+    <description>记录编程实践、网页设计、读书笔记和生活随笔的个人博客。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 26 Sep 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://ghsy1.xyz/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>把静态博客部署到自己的域名</title>
+      <link>https://ghsy1.xyz/posts/static-site-deploy.html</link>
+      <guid isPermaLink="true">https://ghsy1.xyz/posts/static-site-deploy.html</guid>
+      <pubDate>Sat, 26 Sep 2026 10:00:00 +0800</pubDate>
+      <category>教程</category>
+      <description>从零到上线：选择托管平台、配置 DNS 解析、开启 HTTPS，把静态博客挂到自己的域名 ghsy1.xyz 上。</description>
+    </item>
+
+    <item>
+      <title>你好，世界：我为什么要写博客</title>
+      <link>https://ghsy1.xyz/posts/hello-world.html</link>
+      <guid isPermaLink="true">https://ghsy1.xyz/posts/hello-world.html</guid>
+      <pubDate>Fri, 25 Sep 2026 10:00:00 +0800</pubDate>
+      <category>随笔</category>
+      <description>写作是把模糊的想法逼成清晰句子的过程。这是这个站的第一篇文章。</description>
+    </item>
+
+    <item>
+      <title>用 CSS 变量搭一套会呼吸的配色系统</title>
+      <link>https://ghsy1.xyz/posts/css-design-tokens.html</link>
+      <guid isPermaLink="true">https://ghsy1.xyz/posts/css-design-tokens.html</guid>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0800</pubDate>
+      <category>技术</category>
+      <description>把颜色、圆角、阴影都收进变量里，深浅色切换只需要改一处。</description>
+    </item>
+
+    <item>
+      <title>2026 年夏天读完的五本书</title>
+      <link>https://ghsy1.xyz/posts/reading-notes-2026.html</link>
+      <guid isPermaLink="true">https://ghsy1.xyz/posts/reading-notes-2026.html</guid>
+      <pubDate>Tue, 18 Aug 2026 10:00:00 +0800</pubDate>
+      <category>读书</category>
+      <description>五本书，五个不同的晚上。不做摘抄，只写合上书之后还在脑子里转的念头。</description>
+    </item>
+
+  </channel>
+</rss>
